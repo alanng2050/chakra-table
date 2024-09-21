@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "Node16",
+    "target": "ES6",
+    "lib": ["ESNext", "DOM"],
+    "allowJs": true,
+    "strict": true,
+    "jsx": "react-jsx",
+    "removeComments": true,
+    "noImplicitAny": false,
+    "esModuleInterop": true,
+    "moduleResolution": "Node16",
+    "declaration": true,
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["./src/*"]
+    }
+  },
+  "include": ["./src/**/*.ts", "./src/**/*.tsx"],
+  "exclude": ["node_modules", "./src/**/*.test.ts", "./src/**/*.test.tsx"]
+}
